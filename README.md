@@ -105,7 +105,7 @@ The final model was evaluated on 8,760 test observations.
 
 ## 7. Project Structure
 
-```text
+```
 germany-electricity-demand-forecasting/
 ├── data/
 │   └── raw/
