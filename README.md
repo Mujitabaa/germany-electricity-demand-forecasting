@@ -150,3 +150,34 @@ B.Sc. Computer Science and Digitalisation
 Berlin School of Business and Innovation, Germany
 
 GitHub: https://github.com/Mujitabaa
+
+
+## 11. Interactive Streamlit Application
+
+This project includes a Streamlit application that allows users to generate one-hour-ahead electricity demand predictions using the trained Gradient Boosting model.
+
+### Run Locally
+
+Install dependencies from the project root:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch the application:
+
+```bash
+python3 -m streamlit run app.py
+```
+
+Open http://localhost:8501 in your browser.
+
+### Application Features
+
+- Select a forecast date and hour (Berlin time).
+- Enter electricity demand from 1, 24 and 168 hours earlier.
+- Generate predictions using the trained model.
+- View historical 2025 test performance.
+
+**Note:** This is an interactive demonstration, not a live forecasting service. Users must provide historical demand values. Local daylight-saving transitions require care.
+
